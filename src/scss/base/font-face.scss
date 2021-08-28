@@ -9,6 +9,6 @@
     font-style: normal;
     font-weight: #{$key};
     text-rendering: optimizeLegibility;
-    font-display: optional;
+    font-display: auto;
   }
 }
