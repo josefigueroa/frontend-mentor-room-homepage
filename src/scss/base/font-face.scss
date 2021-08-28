@@ -8,7 +8,7 @@
       url('../fonts/Spartan-#{$value}.ttf') format('truetype');
     font-style: normal;
     font-weight: #{$key};
-    text-rendering: optimizeLegibility;
-    font-display: auto;
+    // text-rendering: optimizeLegibility;
+    font-display: block;
   }
 }
