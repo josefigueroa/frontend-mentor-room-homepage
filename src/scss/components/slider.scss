@@ -219,7 +219,7 @@
   &__text{    
     line-height: 1.5;
     font-size: rem(12);
-    color: $gray;
+    color: #585858;
     margin-bottom: rem(50);
     @include breakpoint('medium'){
       margin-bottom: rem(35);

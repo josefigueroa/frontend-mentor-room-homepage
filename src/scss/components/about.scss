@@ -38,6 +38,7 @@
     @include slide-in-right();
     line-height: rem(20);
     font-size: rem(12);
-    color: $gray;
+    color: #585858;
+    opacity: .8;
   }
 }
