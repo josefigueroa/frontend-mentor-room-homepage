@@ -1,19 +1,21 @@
-// 576px, 768px, 992px, 1200px, 1400px
+//BREAKPOINTS
+// 576px, 768px, 992px, 1200px, 1440px, 1444px
 $breakpoints-up: (
-  'small': '36em'
-	'medium': '48em',
+  'small': '36em',
+	'medium': '50em',
 	'large': '62em',
 	'xlarge': '75em',
-	'xxlarge': '87.5em',
+	'xxlarge': '90em',
+	'xxxlarge': '90.25em'
 );
 
-// 575px, 767px, 991px, 1199px, 1399px
+// 575px, 767px, 991px, 1199px, 1439px
 $breakpoints-down: (
 	'small': '35.9375em',
 	'medium': '47.9375em',
 	'large': '61.9375em',
 	'xlarge': '75.9375em',
-	'xxlarge': '87.4375em',
+	'xxlarge': '89.9375em'
 );
 
 $spacer: 1rem;
@@ -26,3 +28,27 @@ $spacer: (
   4: ($spacer * 1.5),
   5: ($spacer * 3)
 );
+
+$black: hsl(0, 0%, 0%);
+$gray: hsl(0, 0%, 63%);
+$dark-gray: hsl(0, 0%, 27%);
+$white: hsl(0, 0%, 100%);
+
+$colors: (
+	'black': $black,
+	'gray': $gray,
+	'dark-gray': $dark-gray,
+	'white': $white
+);
+
+$theme-fonts: (
+	500: 'Medium',
+	600: 'SemiBold',
+	700: 'Bold'
+);
+
+$font-family-base: Spartan;
+$font-size-base: 12px;
+$font-weight-base: 400;
+
+$img-path: '../images/';

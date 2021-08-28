@@ -9,7 +9,82 @@
   <title>Frontend Mentor | Room homepage</title>
 </head>
 <body>
-  
+  <div class="slider">
+    <header class="slider__header">
+      <div class="slider__menu-wrapper">
+        <button class="slider__icon" aria-expanded="false" aria-label="open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <figure class="slider__logo">
+          <img src="images/logo.svg" alt="">
+        </figure>
+        <nav class="slider__nav">
+          <ul class="slider__nav-menu">
+            <li class="slider__nav-item">
+              <a href="#" class="slider__nav-link">home</a>
+            </li>
+            <li class="slider__nav-item">
+              <a href="#" class="slider__nav-link">shop</a>
+            </li>
+            <li class="slider__nav-item">
+              <a href="#" class="slider__nav-link">about</a>
+            </li>
+            <li class="slider__nav-item">
+              <a href="#" class="slider__nav-link">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>     
+      <div class="slider__background">
+        <picture class="slider__img">
+          <source media="(min-width: 600px)" srcset="images/desktop-image-hero-1.jpg">
+          <img src="images/mobile-image-hero-1.jpg" alt="">
+        </picture>
+        <picture class="slider__img slider__img--hidden">
+          <source media="(min-width: 600px)" srcset="images/desktop-image-hero-2.jpg">
+          <img src="images/mobile-image-hero-2.jpg" alt="">
+        </picture>
+        <picture class="slider__img slider__img--hidden">
+          <source media="(min-width: 600px)" srcset="images/desktop-image-hero-3.jpg">
+          <img src="images/mobile-image-hero-3.jpg" alt="">
+        </picture>
+      </div>    
+      <div class="slider__buttons">
+        <button class="slider__prev" aria-label="Previous slider button">
+          <img src="images/icon-angle-left.svg" alt="Previous slider button">
+        </button>
+        <button class="slider__next" aria-label="Next slider button">
+          <img src="images/icon-angle-right.svg" alt="Next slider button">
+        </button>
+      </div>      
+    </header>   
+    <section class="slider__info">
+        <h1 class="slider__title slider__title--animation">Discover innovative ways to decorate</h1>
+        <p class="slider__text slider__text--animation">
+          We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <a href="#" class="slider__link slider__link--animation">Shop now</a>  
+    </section>
+  </div>
+  <section class="about">
+    <figure class="about__img" >
+      <img src="images/image-about-dark.jpg" alt="">
+    </figure>
+    <article class="about__description">
+      <h2 class="about__title">
+        About our furniture
+      </h2>
+      <p class="about__text">
+        Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </article>
+    <figure class="about__img" >
+      <img src="images/image-about-light.jpg" alt="">
+    </figure>
+  </section>
+  <div class="overlay"></div>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
